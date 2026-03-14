@@ -1,9 +1,9 @@
-//
-//  ContentView.swift
-//  Lockie
-//
-//  Created by Тигран Закарян on 14.03.26.
-//
+   //
+   //  ContentView.swift
+   //  Lockie
+   //
+   //  Created by Тигран Закарян on 14.03.26.
+   //
 
 import AppKit
 import AVFoundation
@@ -20,20 +20,8 @@ struct ContentView: View {
          Text("Lock your Mac (manual or timeout) to play the sound.")
             .font(.caption)
             .foregroundStyle(.secondary)
-         HStack {
-            Text("Play on lock button")
-            Spacer()
-            Toggle("", isOn: $playOnButtonLock)
-               .labelsHidden()
-               .toggleStyle(.switch)
-         }
-         HStack {
-            Text("Play on timeout lock")
-            Spacer()
-            Toggle("", isOn: $playOnTimeoutLock)
-               .labelsHidden()
-               .toggleStyle(.switch)
-         }
+         ToggleRowView(title: "Play on lock button", isOn: $playOnButtonLock)
+         ToggleRowView(title: "Play on timeout lock", isOn: $playOnTimeoutLock)
          
          Divider()
          HStack {
@@ -45,7 +33,7 @@ struct ContentView: View {
          }
       }
       .padding(12)
-      .frame(width: 260)
+      .frame(width: 350)
    }
 }
 
