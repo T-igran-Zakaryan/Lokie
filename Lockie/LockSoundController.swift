@@ -1,4 +1,15 @@
-final class LockSoundController: ObservableObject {
+//
+//  LockSoundController.swift
+//  Lockie
+//
+//  Created by Тигран Закарян on 14.03.26.
+//
+import AVFoundation
+import AVKit
+
+
+@Observable
+final class LockSoundController {
     private let soundPlayer = SoundPlayer()
     private var lockObserver: NSObjectProtocol?
     private var resignObserver: NSObjectProtocol?

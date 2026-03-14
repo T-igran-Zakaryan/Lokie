@@ -1,3 +1,12 @@
+//
+//  SoundPlayer.swift
+//  Lockie
+//
+//  Created by Тигран Закарян on 14.03.26.
+//
+import AVFoundation
+import AVKit
+
 final class SoundPlayer {
     private var audioPlayer: AVAudioPlayer?
 
