@@ -17,11 +17,9 @@ struct ContentView: View {
    var body: some View {
       VStack(alignment: .leading, spacing: 8) {
          Label("Lockie is listening for lock events.", systemImage: "lock.fill")
-         
          Text("Lock your Mac (manual or timeout) to play the sound.")
             .font(.caption)
             .foregroundStyle(.secondary)
-            .disabled(true)
          HStack {
             Text("Play on lock button")
             Spacer()
@@ -43,7 +41,7 @@ struct ContentView: View {
             Button("Quit") {
                NSApp.terminate(nil)
             }
-            
+            .clipShape(Capsule())
          }
       }
       .padding(12)
