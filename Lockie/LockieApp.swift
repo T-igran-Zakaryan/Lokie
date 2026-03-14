@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct LockieApp: App {
+struct LockieApp: App {   
     var body: some Scene {
         MenuBarExtra("Lockie", systemImage: "lock.circle.dotted") {
             ContentView()

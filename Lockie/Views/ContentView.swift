@@ -13,6 +13,7 @@ struct ContentView: View {
    @AppStorage("playOnButtonLock") private var playOnButtonLock = true
    @AppStorage("playOnTimeoutLock") private var playOnTimeoutLock = true
    @State private var lockSoundController = LockSoundController()
+   @Environment(\.dismiss) var dismiss
    
    var body: some View {
       VStack(alignment: .leading, spacing: 8) {
@@ -34,8 +35,17 @@ struct ContentView: View {
       }
       .padding(12)
       .frame(width: 350)
+      .background(
+         Button("") {
+            dismiss()
+         }
+         .keyboardShortcut(.cancelAction)
+         .frame(width: 0, height: 0)
+         .opacity(0)
+      )
    }
 }
+
 
 
 
