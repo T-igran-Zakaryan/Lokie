@@ -26,6 +26,12 @@
             "value" : "Verrouillez votre Mac (manuellement ou par délai) pour jouer le son."
           }
         },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заблокуйте ваш Mac (вручну або за тайм-аутом), щоб відтворити звук."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71,6 +77,12 @@
             "value" : "Lockie écoute les événements de verrouillage."
           }
         },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lockie відстежує події блокування."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -111,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jouer au verrouillage manuel"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відтворювати при натисканні кнопки блокування"
           }
         },
         "ru" : {
@@ -155,6 +173,12 @@
             "value" : "Jouer au verrouillage par délai"
           }
         },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відтворювати при блокуванні за тайм-аутом"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitter"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вийти"
           }
         },
         "ru" : {
