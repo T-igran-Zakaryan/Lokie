@@ -10,8 +10,11 @@ import AVKit
 final class SoundPlayer {
     private var audioPlayer: AVAudioPlayer?
 
-    func playLockSound() {
-        guard let url = Bundle.main.url(forResource: "lock", withExtension: "mp3") else {
+    func playSound(named name: String) {
+        let url = Bundle.main.url(forResource: name, withExtension: "mp3") ??
+                  Bundle.main.url(forResource: name, withExtension: "wav")
+        
+        guard let url else {
             return
         }
 

@@ -26,16 +26,16 @@
             "value" : "Verrouillez votre Mac (manuellement ou par délai) pour jouer le son."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Заблокуйте ваш Mac (вручну або за тайм-аутом), щоб відтворити звук."
-          }
-        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заблокируйте Mac (вручную или по тайм-ауту), чтобы воспроизвести звук."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заблокуйте ваш Mac (вручну або за тайм-аутом), щоб відтворити звук."
           }
         },
         "zh-Hans" : {
@@ -77,16 +77,16 @@
             "value" : "Lockie écoute les événements de verrouillage."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lockie відстежує події блокування."
-          }
-        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lockie отслеживает события блокировки."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lockie відстежує події блокування."
           }
         },
         "zh-Hans" : {
@@ -110,43 +110,43 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beim Sperrbutton abspielen"
+            "value" : "Mit Sperrtaste abspielen"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reproducir al pulsar el botón de bloqueo"
+            "value" : "Al bloquear con botón"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jouer au verrouillage manuel"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Відтворювати при натисканні кнопки блокування"
+            "value" : "Jouer avec le bouton"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Воспроизводить при нажатии кнопки блокировки"
+            "value" : "При блокировке кнопкой"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При блокуванні кнопкою"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "按下锁定按钮时播放"
+            "value" : "按键锁屏时播放"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "按下鎖定按鈕時播放"
+            "value" : "按鍵鎖屏時播放"
           }
         }
       }
@@ -158,43 +158,43 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bei Timeout-Sperre abspielen"
+            "value" : "Bei Timeout abspielen"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reproducir al bloqueo por tiempo de espera"
+            "value" : "Al bloquear por inactividad"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jouer au verrouillage par délai"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Відтворювати при блокуванні за тайм-аутом"
+            "value" : "Verrouillage par délai"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Воспроизводить при блокировке по тайм-ауту"
+            "value" : "При автоблокировке"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При автоблокуванні"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "超时锁定时播放"
+            "value" : "自动锁屏时播放"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "逾時鎖定時播放"
+            "value" : "自動鎖屏時播放"
           }
         }
       }
@@ -221,16 +221,16 @@
             "value" : "Quitter"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Вийти"
-          }
-        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выйти"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вийти"
           }
         },
         "zh-Hans" : {
@@ -243,6 +243,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "退出"
+          }
+        }
+      }
+    },
+    "Sound" : {
+      "comment" : "A label displayed above a picker that lets the user select a sound.",
+      "isCommentAutoGenerated" : true,
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ton"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звук"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звук"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "声音"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聲音"
           }
         }
       }

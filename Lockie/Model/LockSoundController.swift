@@ -67,7 +67,12 @@ final class LockSoundController {
         }
 
         lastPlayTime = now
-        soundPlayer.playLockSound()
+        let selectedSoundName = UserDefaults.standard.string(forKey: "selectedSound") ?? LockSound.snap.rawValue
+        soundPlayer.playSound(named: selectedSoundName)
+    }
+
+    func playPreview(sound: LockSound) {
+        soundPlayer.playSound(named: sound.filename)
     }
 
     private func shouldPlay(for kind: LockKind) -> Bool {

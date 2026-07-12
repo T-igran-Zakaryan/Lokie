@@ -14,9 +14,9 @@ struct ToggleRowView: View {
     var body: some View {
         HStack(alignment: .center, spacing: 8) {
             Text(title)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .fixedSize(horizontal: false, vertical: true)
-                .layoutPriority(1)
             Toggle("", isOn: $isOn)
                 .labelsHidden()
                 .toggleStyle(.switch)
