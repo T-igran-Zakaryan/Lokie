@@ -18,6 +18,14 @@ enum LockSound: String, CaseIterable, Identifiable {
     case gearLock = "Gear lock"
     case hotelLobby = "Hotel Lobby"
     case shut = "Shut"
+    case stick = "Stick"
+    case reverbed = "Reverbed"
+    case wipe = "Wipe"
+    case rim = "Rim"
+    case xlop = "Xlop"
+    case tambDoor = "TambDoor"
+    case snazz = "Snazz"
+    case bass = "Bass"
     
     var id: String { self.rawValue }
     
@@ -43,6 +51,22 @@ enum LockSound: String, CaseIterable, Identifiable {
             return "Hotel Lobby"
         case .shut:
             return "Shut"
+        case .stick:
+            return "Stick"
+        case .reverbed:
+            return "Reverbed"
+        case .wipe:
+            return "Wipe"
+        case .rim:
+            return "Rim"
+        case .xlop:
+            return "Xlop"
+        case .tambDoor:
+            return "TambDoor"
+        case .snazz:
+            return "Snazz"
+        case .bass:
+            return "Bass"
         }
     }
     
